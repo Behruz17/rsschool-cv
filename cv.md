@@ -21,3 +21,27 @@ I am flexible, reliable and possess excellent time keeping skills. I am an enthu
 * SQL
 * GIT
 
+## Code Example
+```
+function greeting(name) {
+  return `Hello ${name}`;
+}
+
+let result = greeting('Ben');
+alert( result );
+```
+## Experience
+*  **Intern student at It-Consulting (Telegram Bot Developer)** - 2020-2021
+* **Programming instructor at [Ilmhona]("https://ilmhona.org/")** - 2021-now
+
+## Education
+* **Institute:** Khujand Polytechnic Institute of the Technical University of Tajikistan (KPITUT)
+* **Courses:**
+	+ [Alif Academy]("https://alif.academy/")
+    + [RS-School]("https://rs.school/")
+
+## Languages
+* **Tajik** - Native
+* **Russian** - Upper-Intermediate (В2)
+* **English** - Intermediate (В1)
+
