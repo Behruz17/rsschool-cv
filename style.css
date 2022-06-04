@@ -1,0 +1,59 @@
+#resume{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 10px grey;
+            box-shadow: 0 0 10px grey;
+    }
+    
+    .rightSide{
+        width: 60%;
+    }
+    
+    .leftSide{
+        width: 30%;
+    }
+    
+    .intro{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    }
+    
+    .intro img{
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+    
+    .fio{
+    line-height: 10px;
+    width: 250px;
+    }
+    
+    .job{
+    color: dodgerblue;
+    font-weight: 900;
+    }
+    
+    .personalInfo, .experienceInfo, .educationInfo, .coursesInfo, .personalQualitiesInfo, .salary, .contacts, .languages, .skills{
+        border-left: lightgrey 2px solid;
+        padding-left: 10px;
+    }
+    
+    .key{
+        color: grey;
+    }
+    
+    .date{
+        color: dodgerblue;
+    }
+    
+    .skills ul{
+    list-style: none;
+    padding: 0;
+    }
