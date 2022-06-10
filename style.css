@@ -1,52 +1,184 @@
-#resume{
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .header {
+    background-color: #1e232c;
+  }
+
+  .nav-list {
+    list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 10px grey;
-    box-shadow: 0 0 10px grey;
-    }
-    .rightSide{
-        width: 60%;
-    }
-    .leftSide{
-        width: 30%;
-    }
-    .intro{
+  }
+
+  .nav-link {
+    padding: 21px 20px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+  }
+
+ .nav-link:hover {
+    color: black;
+    background-color: rgb(242, 193, 0);
+  }
+
+  .main {
     display: flex;
-    gap: 20px;
-    width: 70%;
-    }
-    .intro img{
-        width: 150px;
-        height: 150px;
-        border-radius: 30px;
-    }
-    .fio{
-    line-height: 10px;
-    width: 250px;
-    }
-    .job{
-    color: dodgerblue;
-    font-weight: 900;
-    }
-    .personalInfo, .experienceInfo, .educationInfo, .coursesInfo, .personalQualitiesInfo, .salary, .contacts, .languages, .skills{
-        border-left: lightgrey 2px solid;
-        padding-left: 10px;
-    }
-    .key{
-        color: grey;
-    }
-    .date{
-        color: dodgerblue;
-    }
-    .skills ul{
+  }
+
+  .left-side {
+    background-color: rgb(44, 50, 61);
+    color: white;
+    width: 30%;
+  }
+
+  .avatar {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-title {
+    position: relative;
+    padding-left: 60px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin: 0px 0px 36px;
+  }
+
+  .left-side .section-title {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .section-title::before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 36px;
+    background-color: rgb(242, 193, 0);
+  }
+
+  .contact {
+    background-color: #343945;
+  }
+
+  .contact__list,
+  .education__list,
+  .experience__list {
     list-style: none;
+    margin: 10px 60px;
+    padding: 0px;
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+
+  }
+
+  .skills__list,
+  .languages__list {
+    margin: 20px 60px;
     padding: 0;
-    }
-.pad{
-padding-left:25px;
-}
+    padding-left: 20px;
+  }
+
+  .skills__list li,
+  .languages__list li {
+    margin-top: 10px;
+  }
+
+  .contact__item {
+    padding-bottom: 20px;
+  }
+
+  .contact__item a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .education__item,
+  .experience__item {
+    margin-top: 20px;
+  }
+
+
+  .right-side {
+    width: 75%;
+  }
+
+  .page-title {
+    margin: 125px 80px 125px 60px;
+  }
+
+  .main-title {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    color: rgb(242, 193, 0);
+  }
+
+  .right-side .section-title {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me p {
+    margin: 0 60px 20px 60px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+  }
+
+  pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+  }
+
+  .hljs-keyword {
+    color: olive;
+  }
+
+  .hljs-property {
+    color: #0055af;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: #1e232c;
+    font-size: 18px;
+  }
+
+  .footer__year {
+    font-family: 'Graduate', cursive;
+  }
+
+  .footer__github {
+    color: white;
+    text-decoration: none;
+  }
