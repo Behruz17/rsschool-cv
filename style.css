@@ -156,6 +156,11 @@
     padding: 1em;
   }
 
+  .cv-link {
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+  }
   .hljs-keyword {
     color: olive;
   }
